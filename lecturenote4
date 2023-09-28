@@ -1,0 +1,39 @@
+#### Lab 4. Lecture Note on Shell Command
+
+#### Linux : 
+Open-Source Unix-like operating system and kernels.
+#### Kernel : 
+core of OS that controls and communicates with hardware resources (directly use x)
+
+#### Shell : 
+Interface that allows users to communicate with kernel
+
+##### CLI (Command Line Interface) vs. GUI (Graphical User Interface)
+
+#### CLI 
+- have to remember commands, mostly keyboards, relatively fast, scripts enable automation and records, Basic environment for developers
+
+#### GUI 
+– Easy to use and intuitive, mostly mouse+ keyboard shortcuts, relatively slow, manual labors required, For daily users
+
+## Shell Command :  
+
+- `pwd` – shows the current path in a hierarchical directory
+- `cd` – change directory
+- `ls` – list files and directories
+  - `-l` : show detailed info. in long format
+  - `-lh` : show in units
+- `clear` – clear all 
+
+Following commands can delete or overwrite files and directories
+
+- `cp` – copy files and directories 
+- `mv` – move files and directories or rename them
+- `rm` – delete files and directories permanently
+- `mkdir` – make new directory
+
+#### Help Command
+– help, man (e.g. $ help cd, $ man cd)
+
+#### Exiting Terminal
+– exit 
