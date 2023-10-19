@@ -1,0 +1,42 @@
+#### Open Source SW : Git-1 Lec. Note
+
+#### Git config: First-time setup
+- 1. System Level: --system option 
+    Affects all uses and repositories on the system (administrative)
+- 2. Global (user) level: --global option
+     Affects all repositories of a current user
+- 3. Local level: --local option
+     Specific to the current repository
+
+#### Initializing a Repository in an Existing Directory
+- $ git init
+
+#### Checking Repository Status
+- $ git status
+
+#### Adding a new file to be staged (tracked)
+- $ git add [file_name]
+
+#### Unstaging a file
+- $ git rm –cached [file_name]
+
+#### Ignoring a file
+- .gitignore file
+- e.g. $ git em --cached history_command.txt
+    rm ' history_command.txt'
+    $ git status
+    On branch master
+
+#### Commit
+- $ git commit -m “commit message”
+    e.g. $ git commit -m "initial commit"
+
+#### Change branch name
+- e.g. $ git branch
+    * master
+    $ git branch -m master main
+    $ git branch
+    * main
+    $ git status
+    On branch main
+    nothing to commit, working tree clean
